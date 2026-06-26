@@ -20,7 +20,7 @@
 
 let temperature = 35;
 
-// ✅ Simple if
+// ✅ Simple if.
 if (temperature > 30) {
   console.log("It's hot outside! 🌞");  // Runs
 }
