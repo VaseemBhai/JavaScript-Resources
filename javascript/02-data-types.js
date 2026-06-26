@@ -146,7 +146,7 @@ console.log(sym1.description);     // "id"
 const SECRET_KEY = Symbol('secretKey');
 let config = {};
 config[SECRET_KEY] = 'hidden-value';
-console.log(config[SECRET_KEY]);   // "hidden-value."
+console.log(config[SECRET_KEY]);   // "hidden-value"
 
 // ✅ Symbols are NOT enumerable by default (hidden from for...in and Object.keys)
 let myObj = {
